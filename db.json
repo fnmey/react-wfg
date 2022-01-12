@@ -1,0 +1,64 @@
+{
+  "countries": [
+    {
+      "id": 1,
+      "name": "Brasilien",
+      "capital": "Brasilia",
+      "inhabitants": 212600000
+    },
+    {
+      "id": 2,
+      "name": "Schweden",
+      "capital": "Stockholm",
+      "inhabitants": 10350000
+    },
+    {
+      "id": 3,
+      "name": "Malaysia",
+      "capital": "Kuala Lumpur",
+      "inhabitants": 32370000
+    },
+    {
+      "id": 4,
+      "name": "Schweiz",
+      "capital": "Bern",
+      "inhabitants": 8637000
+    },
+    {
+      "id": 5,
+      "name": "Singapur",
+      "capital": "Singapur",
+      "inhabitants": 5686000
+    },
+    {
+      "id": 6,
+      "name": "Venezuela",
+      "capital": "Caracas",
+      "inhabitants": 28440000
+    },
+    {
+      "id": 7,
+      "name": "Kenia",
+      "capital": "Nairobi",
+      "inhabitants": 53770000
+    },
+    {
+      "id": 8,
+      "name": "Dänemark",
+      "capital": "Kopenhagen",
+      "inhabitants": 5831000
+    },
+    {
+      "id": 9,
+      "name": "Kasachstan",
+      "capital": "Astana",
+      "inhabitants": 18750000
+    },
+    {
+      "id": 10,
+      "name": "Uganda",
+      "capital": "Kampala",
+      "inhabitants": 45740000
+    }
+  ]
+}
