@@ -1,18 +1,21 @@
-import Card from "../Card"
+// component import
+import Card from "./Card";
 
-const GameField = ({countries, comp_country,onClick}) => {
-    
-    return (
-        <div className="game-field">
-            {countries.map((country) => (
-                <Card 
-                key = {country.id}
-                country = {country} 
-                onClick={onClick}
-                comp_country = {comp_country}/>
-            ))}
-        </div>
-    )
-}
+// game field component, that is located right next to the side column
+// and stores the cards
+const GameField = ({ fieldCountries, compareCountry, onClick }) => {
+  return (
+    <div className="game-field">
+      {fieldCountries.map((fieldCountries) => (
+        <Card
+          key={fieldCountries.id}
+          country={fieldCountries}
+          onClick={onClick}
+          compareCountry={compareCountry}
+        />
+      ))}
+    </div>
+  );
+};
 
-export default GameField
+export default GameField;

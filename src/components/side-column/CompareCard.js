@@ -1,19 +1,11 @@
-import { useState } from "react"
-
-const CompareCard = ({comp_country}) => {
-    
-    
+// "static" compare card component that only gets new input in country information
+// everytime a round ends
+const CompareCard = ({ compareCountry }) => {
     return (
         <div className="card card-large">
-            <div className="country-border">
-                {comp_country.inhabitants}
-            </div>
-            <div className="country-name">
-                {comp_country.name}
-            </div>
-            <div className="country-capital">
-                {comp_country.capital}
-            </div>
+            <img src={require(`C:/Users/finnm/ReactApps/react-wfg/src/images/flags/${compareCountry.iso}.svg`)} alt="" />
+            <p className="country-name">{compareCountry.name}</p>
+            <p className="country-capital">{compareCountry.capital}</p>
         </div>
     )
 }
