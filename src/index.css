@@ -12,19 +12,20 @@ img {
     opacity: 0.8;
 }
 .container {
-    max-width: 1500px;
-    min-width: 1200px;
+    width: 100%;
+    max-width: 1200px;
+    min-width: 1000px;
     margin: 40px auto;
     overflow: auto;
     border: 1px solid grey;
     padding: 40px 0px;
     border-radius: 3px;
     box-shadow: 0 0 0.3em rgb(75, 73, 73);
-    background-image: url(C:\Users\finnm\ReactApps\react-wfg\src\svg\worldmap.svg);
+    background-image: url(/src/svg/worldmap.svg);
 }
 
 .container-pregame {
-    background: linear-gradient(45deg, #B1905C, #9b7840);
+    background: rgb(104, 104, 221);
 }
 
 .header {
@@ -351,7 +352,7 @@ td {
     border: solid rgb(211, 117, 2) 2px;
     border-radius: 12px;
     cursor: pointer;
-    aspect-ratio: 1 / 1.4;
+    aspect-ratio: 1 / 1;
     box-shadow: 0 0 0.3em rgb(75, 73, 73);
 }
 

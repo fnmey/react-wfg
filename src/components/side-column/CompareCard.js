@@ -3,7 +3,7 @@
 const CompareCard = ({ compareCountry }) => {
     return (
         <div className="card card-large">
-            <img src={require(`C:/Users/finnm/ReactApps/react-wfg/src/images/flags/${compareCountry.iso}.svg`)} alt="" />
+            <img src={require(`/src/images/flags/${compareCountry.iso}.svg`)} alt="" />
             <p className="country-name">{compareCountry.name}</p>
             <p className="country-capital">{compareCountry.capital}</p>
         </div>

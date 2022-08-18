@@ -138,7 +138,7 @@ function App() {
   }, []);
 
   const fetchCountries = async () => {
-    const res = await fetch("http://localhost:5000/countries");
+    const res = await fetch("http://localhost:4000/countries");
     const data = await res.json();
 
     return data;
@@ -441,6 +441,7 @@ function App() {
 
     return array;
   }
+
 
   // the DOM gets displayed in dependency of the activeGame state:
   // if the game is active, the GameField and SideColumn components get showed
